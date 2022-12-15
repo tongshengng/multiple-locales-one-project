@@ -8,7 +8,7 @@ const nextConfig = {
     domains: [
       {
         domain: "sa-locale-sg.vercel.app",
-        defaultLocale: "en-US",
+        defaultLocale: "en-SG",
         locales: ["en-SG"],
       },
       {
