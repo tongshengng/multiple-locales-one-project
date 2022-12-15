@@ -22,7 +22,7 @@ const nextConfig = {
         locales: ["en-AE"],
       },
       {
-        domain: "sa-test-th.vercel.app",
+        domain: "sa-locale-th.vercel.app",
         defaultLocale: "en-TH",
         locales: ["en-TH", "th-TH"],
       },
