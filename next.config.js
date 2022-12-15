@@ -7,17 +7,17 @@ const nextConfig = {
     defaultLocale: "en-SG",
     domains: [
       {
-        domain: "sa-test-sg.vercel.app",
+        domain: "sa-locale-sg.vercel.app",
         defaultLocale: "en-US",
         locales: ["en-SG"],
       },
       {
-        domain: "sa-test-my.vercel.app",
+        domain: "sa-locale-my.vercel.app",
         defaultLocale: "en-MY",
         locales: ["en-MY"],
       },
       {
-        domain: "sa-test-ae.vercel.app",
+        domain: "sa-locale-ae.vercel.app",
         defaultLocale: "en-AE",
         locales: ["en-AE"],
       },
@@ -27,7 +27,7 @@ const nextConfig = {
         locales: ["en-TH", "th-TH"],
       },
       {
-        domain: "sa-test-hk.vercel.app",
+        domain: "sa-locale-hk.vercel.app",
         defaultLocale: "en-HK",
         locales: ["en-HK", "zh-HK"],
       },
