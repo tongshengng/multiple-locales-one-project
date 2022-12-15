@@ -1,20 +1,10 @@
-import type { GetStaticPropsContext, NextPage } from "next";
+import type { NextPage } from "next";
 import { useRouter } from "next/router";
-
-export async function getStaticProps(ctx: GetStaticPropsContext) {
-  // console.log(ctx);
-
-  return {
-    props: {},
-  };
-}
 
 const Home: NextPage = () => {
   const router = useRouter();
 
-  // console.log(router);
-
-  return <div></div>;
+  return <pre>{JSON.stringify(router, null, 2)}</pre>;
 };
 
 export default Home;

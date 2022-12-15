@@ -26,10 +26,7 @@ const Home: NextPage = () => {
     (domain) => router.locale && domain.locales?.includes(router.locale)
   )?.locales;
 
-  console.log(router);
-  console.log(regionLocales);
-
-  return <div></div>;
+  return <div>{String(regionLocales)}</div>;
 };
 
 export default Home;
