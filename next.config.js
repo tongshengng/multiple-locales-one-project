@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -7,27 +8,27 @@ const nextConfig = {
     defaultLocale: "en-SG",
     domains: [
       {
-        domain: "sa-locale-sg.vercel.app",
+        domain: "stashaway-sg.vercel.app",
         defaultLocale: "en-SG",
         locales: ["en-SG"],
       },
       {
-        domain: "sa-locale-my.vercel.app",
+        domain: "stashaway-my.vercel.app",
         defaultLocale: "en-MY",
         locales: ["en-MY"],
       },
       {
-        domain: "sa-locale-ae.vercel.app",
+        domain: "stashaway-ae.vercel.app",
         defaultLocale: "en-AE",
         locales: ["en-AE"],
       },
       {
-        domain: "sa-locale-th.vercel.app",
+        domain: "stashaway-co-th.vercel.app",
         defaultLocale: "en-TH",
         locales: ["en-TH", "th-TH"],
       },
       {
-        domain: "sa-locale-hk.vercel.app",
+        domain: "stashaway-hk.vercel.app",
         defaultLocale: "en-HK",
         locales: ["en-HK", "zh-HK"],
       },
