@@ -8,9 +8,6 @@ module.exports = {
     locales: ["en-SG", "en-MY", "en-AE", "en-TH", "th-TH", "en-HK", "zh-HK"],
     defaultLocale: "en-SG",
     localeDetection: false,
-    domains: domains.map(({ domain, defaultLocale }) => ({
-      domain,
-      defaultLocale,
-    })),
+    domains,
   },
 };
