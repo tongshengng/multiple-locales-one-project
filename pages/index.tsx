@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
-import { i18n } from "../next.config";
+import domains from "../domains";
 
 const Home: NextPage = () => {
   const router = useRouter();
@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   const domainLocales = useMemo(
     () =>
       JSON.stringify(
-        i18n?.domains?.find(
+        domains?.find(
           ({ locales }) => router.locale && locales?.includes(router.locale)
         ),
         null,

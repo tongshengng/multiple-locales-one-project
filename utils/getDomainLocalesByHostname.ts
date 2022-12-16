@@ -1,4 +1,4 @@
-import config from "../next.config";
+import domains from "../domains";
 
 export const getDomainLocalesByHostname = (hostname: string) =>
-  config.i18n?.domains?.find(({ domain }) => domain === hostname)?.locales;
+  domains?.find(({ domain }) => domain === hostname)?.locales;
