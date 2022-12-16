@@ -5,6 +5,10 @@ import { getDomainLocalesByHostname } from "./utils/getDomainLocalesByHostname";
 import { getLocaleByURL } from "./utils/getLocaleByURL";
 
 export async function middleware(req: NextRequest) {
+  if (req.url) {
+    return;
+  }
+
   if (
     req.url.includes("/_next/") ||
     req.url.includes("/api/") ||
